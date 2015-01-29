@@ -1,0 +1,47 @@
+#socialLens-control {
+	position:fixed;
+	z-index:9999;
+
+	width:auto;
+	max-width:50%;
+	max-height:50%;
+
+	overflow-x:hidden;
+	overflow-y:auto;
+
+	font-family:Tahoma;
+	font-size:14px;
+	font-weight:400;
+
+	padding:8px;
+	margin-top:6px;
+	border-right: solid 2px #fff;
+	border-bottom: solid 2px #fff;
+
+	background:#fbfbfb;
+	color:#222;
+}
+
+#socialLens-control a:hover {
+	cursor:pointer;
+}
+
+#socialLens-results {
+	padding-top:8px;
+}
+
+#socialLens-results h3 {
+	border-bottom:solid 2px #55acee;
+	font-weight:600;
+	padding-bottom:8px;
+	margin-bottom:8px;
+	color:#55acee;
+}
+
+#socialLens-results p {
+	padding-bottom: 8px;
+}
+
+#socialLens-results input[type=checkbox] {
+	vertical-align:bottom;
+}

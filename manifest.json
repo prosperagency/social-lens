@@ -1,0 +1,24 @@
+{
+	"manifest_version": 2,
+
+	"name": "Social Lens",
+	"description": "Social Lens is a browser extension that filters your Twitter timeline for ... uh, well, #hashtags and questions?",
+	"version": "1.0",
+
+	"icons": {
+		"16":"favicon16.png",
+		"19":"favicon19.png",
+		"38":"favicon38.png",
+		"48":"favicon48.png",
+		"128":"favicon128.png"
+	},
+
+	"content_scripts": [{
+		"matches": [
+			"https://twitter.com/",
+			"https://twitter.com/*/lists/*"
+		],
+		"css": ["social-lens.css"],
+		"js": ["jquery.2.0.1.min.js", "social-lens.js"]
+	}]
+}
